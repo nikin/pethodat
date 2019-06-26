@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { overflow: scroll; overflow-x: auto; }
+body{padding: 0px; margin-top: 5px; background: #111 ; font: normal 14px "Palatino Linotype", "Book Antiqua", Palatino, serif; color:#003; }
+
+.left   { text-align: left   !important; }
+.center { text-align: center !important; }
+.right  { text-align: right  !important; }
+.justify { text-align: justify !important;}
+.floatl { float: left ; display: inline; }
+.floatr { float: right; display: inline; }
+.floatc {margin: 0 auto; }
+
+/* MAIN COLUMNS */
+#header {width: 1000px; min-height: 50px; margin: 0 auto; font-family: "Comic Sans MS", cursive; font-size:36px; position: relative; color:#FFF;}
+#page { width: 1000px; min-height: 850px; background:#111; margin: 0 auto; position: relative; text-align: left;}

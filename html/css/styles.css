@@ -1,0 +1,216 @@
+html { overflow: scroll; overflow-x: auto; }
+body{padding: 0px; margin: 0px; background:#DFEDF5; font: normal 14px "Palatino Linotype", "Book Antiqua", Palatino, serif; color:#003; }
+
+.left   { text-align: left   !important; }
+.center { text-align: center !important; }
+.right  { text-align: right  !important; }
+.justify { text-align: justify !important;}
+.floatl { float: left ; display: inline; }
+.floatr { float: right; display: inline; }
+.floatc {margin: 0 auto; }
+
+/* MAIN COLUMNS */
+#page { width: 1300px; margin: 0 auto; position: relative; text-align: left;}
+
+/* MEMBER MENU */
+#menu {width:100%; height: 50px;  overflow: hidden; background:#3499C5; margin:0px auto; font: bold 13px Tahoma, Arial, sans-serif; text-align: right; border-bottom: #CCC solid 1px; }
+#menu ul { margin:0 auto; list-style:none; padding:0; text-align:left;  }
+#menu ul li { display: inline;}
+#menu ul li jobb { display: inline; float: right; padding:15px 20px; color:#E0DAFC; font: 16px "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight: bold; }
+#menu ul a { height:50px; repeat-x 0 0; display:block; float:left; text-decoration:none; color:#fff; padding:7px 10px; text-align:center; }
+#menu ul a:hover { background-color:#356da7; background-position:0 -100px; color:#fff; }
+#menu ul a.active { background-color:#f2f2f2; background-position:0 -300px; color:#000; }
+
+/* MENU */
+#navi {width:100%; height: 60px;  overflow: hidden; margin:0px auto; font: bold 13px Tahoma, Arial, sans-serif; text-align: center; text-transform:uppercase; }
+#navi ul { margin:0 auto; list-style:none; padding:0; text-align:left;  }
+#navi ul li { display: inline;}
+#navi ul a { height:60px; display:block; float:left; text-decoration:none; color:#FFFFFF; padding:7px 7px; text-align:center; }
+#navi ul a:hover { background:#ECEAFF;}
+
+/* MAIN */
+#left   { float: left;  display: inline; width: 750px; margin: 10px 0 10px 5px;  font-size:16px; font-style:italic;}
+#center { float: left;  display: inline; width: 602px; margin: 10px; }
+#center_content { float: left; width: 400px; margin: 10px; }
+#right  { float: right; display: inline;  margin: 10px 5px 10px 0; font-size:16px; }
+
+/* BOX */
+.box { height: 1%; margin-bottom: 0px;}
+.box a { color:#000; vertical-align:top; float:right; font: bold 15px Arial, Verdana, sans-serif; text-decoration:none;}
+.box h4 { overflow: hidden; padding: 5px 5px; font: bold 14px Arial, Verdana, sans-serif; color: #fff;}
+.box h3 { overflow: hidden; padding: 0px 5px; font: bold 14px Arial, Verdana, sans-serif; color: #412501;}
+.box p { padding: 5px 5px; font: 12px Georgia, "Times New Roman", Times, serif; color:#333; text-align:left;}
+.boxfejl {height: 32px; background:#7d4802;}
+.dogbox { width:600px; margin:0 auto; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; }
+.dogbox h4{ height: 18px; overflow: hidden; background: #3a2100; padding-top:3px; padding-left:5px; padding-right:5px; font: bold 11px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: #fff; text-transform:uppercase; }
+.dogbox h2 { font:"Palatino Linotype", "Book Antiqua", Palatino, serif; overflow:hidden; text-align:left; padding-left:10px; background: #d37e2b; padding-top:3px; padding-bottom: 4px; text-transform:uppercase; margin-top: 0; color:#FFF;}
+.dogbox a {color:#fff; float:right; font: bold 16px Arial, Verdana, sans-serif; text-decoration:none;}
+.dogbox a:hover {color: #C30; float:right; font: bold 16px Arial, Verdana, sans-serif; text-decoration:none;}
+.dogbox h5 { overflow: hidden; padding: 0px 5px; font: bold 11px Arial, Verdana, sans-serif; color: #000; }
+.dogbox new {font:bold italic 13px Verdana, Geneva, sans-serif; color: #00C;}
+.dogbox missing {font:bold italic 13px Verdana, Geneva, sans-serif; color:#C00;}
+.dogbox ok {font:bold italic 13px Verdana, Geneva, sans-serif; color: #090;}
+.sf {background: url(../images/sfoxi.png) no-repeat center;}
+.wf {background: url(../images/wfoxi.png) no-repeat center;}
+
+#toptabbox ul { list-style: none; padding: 0; margin: 0;}
+#toptabbox li { list-style-type: none; float: left; border: 0; margin: 0; padding: 0; width: 299px;}
+#toptabbox a { display: block; padding: 2px 10px; text-decoration: none; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 12pt; font-weight: bold; color: #000; text-transform:uppercase;}
+.toptabbox-content a:hover { text-decoration: underline;}
+#toptabbox .selected { position: relative; top: 1px; background-color: #d37e2b; -webkit-border-top-left-radius: 8px; -webkit-border-top-right-radius: 8px; -moz-border-radius-topleft: 8px; -moz-border-radius-topright: 8px; border-top-left-radius: 8px; border-top-right-radius: 8px; border: 1px solid #d37e2b;}
+#toptabbox .selected a { color: #fff;}
+.toptabbox-content { border: 1px solid #777; -webkit-border-bottom-right-radius: 8px; -webkit-border-bottom-left-radius: 8px; -moz-border-radius-bottomright: 8px; -moz-border-radius-bottomleft: 8px; -moz-box-shadow: 5px 5px 5px #000; /* Firefox */ -webkit-box-shadow: 5px 5px 5px #000; /* Safari and Chrome */ box-shadow: 5px 5px 5px #000; /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */ border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; border-top: 4px solid #d37e2b; padding: 8px; clear: both; background:#FFF;}
+.toptabbox-content a { font:"Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight:bold; color:#412501; text-decoration:none}
+
+/* RESULT BOX */
+.resultbox { width:600px; margin:10px auto; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; }
+.resultbox h2 { font:"Palatino Linotype", "Book Antiqua", Palatino, serif; overflow:hidden; text-align:left; padding-left:10px; background: #d37e2b; padding-top:3px; padding-bottom: 4px; text-transform:uppercase; margin-top: 0; color:#FFF;  -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.resultbox dog { font: bold italic 16px "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+.resultbox a { font: bold italic 16px "Palatino Linotype", "Book Antiqua", Palatino, serif; text-decoration:none; color:#412501; }
+.resultbox a:hover { font: bold italic 16px "Palatino Linotype", "Book Antiqua", Palatino, serif; text-decoration: underline; color:#412501; }
+
+
+/* BORDERED BOX */
+.border { border: 1px solid #006; background: #fff no-repeat 50% -4px; -moz-box-shadow: 5px 5px 5px #003; /* Firefox */ -webkit-box-shadow: 5px 5px 5px #003; /* Safari and Chrome */ box-shadow: 5px 5px 5px #000; /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */ }
+.bordered { border: 1px solid #30C; background: #fff no-repeat 50% -4px; border-radius: 10px; -moz-border-radius-topleft: 10px;  -moz-border-radius-topright: 10px; -moz-border-radius-bottomright: 10px; -moz-border-radius-bottomleft: 10px; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-box-shadow: 5px 5px 5px #000; /* Firefox */ -webkit-box-shadow: 5px 5px 5px #000; /* Safari and Chrome */ box-shadow: 5px 5px 5px #000; /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */
+}
+.border h4 { position: relative; margin: -1px -1px 0 -1px; no-repeat 50% -3px; }
+.border:after { content: ""; display: block; width: 100%; height: 3px; margin: -2px -1px -1px -1px; padding: 0 1px; background: no-repeat 50% 0; }
+
+/* PADDING */
+.pl { padding: 0 10px;}
+
+/* MARGIN */
+.mh { margin: 0 10px;}
+.mh2 { margin: 0 20px;}
+.mh3 { margin: 0 30px; }
+.mh4 { margin: 0 40px; }
+.mh5 { margin: 0 50px; }
+.mh6 { margin: 0 60px; }
+.mh7 { margin: 0 70px; }
+.mh8 { margin: 0 80px; }
+
+/* BUTTONS */
+
+.button {font-size:11px; line-height:14px;*line-height:13px;overflow:visible;width:auto; margin-right:5px; color:#ffffff; background: #5b74a8; border-style:solid;border-width:1px; display:-moz-inline-box; display:inline-block;outline:none; padding:3px 3px; border-color:#29447e #29447e #1a356e; -moz-box-shadow:0 1px 0 rgba(0,0,0,.12); -webkit-box-shadow:0 1px 0 rgba(0,0,0,.12)}
+.button:active { color:#FFF;background:#4f6aa3;border-bottom-color:#29447e }
+.bcancel { background:url('../images/buttons2.png') no-repeat 0 0; background-position: 0px 0px; height:50px; width:50px; margin:0 5px; border:0; }
+.bcancel:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -50px 0px; height:50px; width:50px; border:0; }
+.bdelete { background:url('../images/buttons2.png') no-repeat 0 0; background-position: 0px -100px; height:50px; width:50px; border:0; margin:0 15px }
+.bdelete:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -50px -100px; height:50px; width:50px; border:0; }
+.delete { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -100px -100px; height:32px; width:32px; margin:0 5px;  border:0; }
+.delete:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -150px -100px; height:32px; width:32px; border:0; }
+.edit { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -100px -150px; height:32px; width:32px; margin:0 5px;  border:0; }
+.edit:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -150px -150px; height:32px; width:32px; border:0; }
+.info { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -100px -200px; height:32px; width:32px; margin:0 5px ; border:0; }
+.info:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -150px -200px; height:32px; width:32px border:0; }
+.bsave { background:url('../images/buttons2.png') no-repeat 0 0; background-position: 0px -250px; height:50px; width:50px; margin:0 5px ; border:0; }
+.bsave:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -50px -250px; height:50px; width:50px border:0; }
+.save { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -100px -250px; height:50px; width:50px; margin:0 5px ; border:0; }
+.save:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -150px -250px; height:50px; width:50px border:0; }
+.bupload { background:url('../images/buttons2.png') no-repeat 0 0; background-position: 0px -300px; height:50px; width:50px; border:0; margin:0 15px }
+.bupload:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -50px -300px; height:50px; width:50px; border:0; }
+.upload { background:url('../images/buttons2.png') no-repeat 0 0; height:32px; background-position: -100px -300px; width:32px; margin:0 5px ; border:0; }
+.upload:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -150px -300px; height:32px; width:32px; border:0; }
+.bcup { background:url('../images/buttons2.png') no-repeat 0 0; background-position: 0px -350px; height:50px; width:50px; margin:0 5px ; border:0; }
+.bcup:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -50px -350px; height:50px; width:50px; border:0; }
+.cup { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -100px -350px; height:30px; width:30px; margin:0 5px ; border:0; }
+.cup:hover { background:url('../images/buttons2.png') no-repeat 0 0; background-position: -150px -350px; height:30px; width:30px; border:0; }
+.back { background:url('../images/buttons.png') no-repeat 0 0; height: 50px; width:50px; border:0; margin:0 15px }
+.back:hover { background:url('../images/buttons.png') no-repeat 0 0; background-position:0 -50px; height: 50px; width:50px; border:0; }
+.forward { background:url('../images/buttons.png') no-repeat 0 0; background-position:0 -100px; height: 50px; width:50px; border:0; margin:0 15px }
+.forward:hover { background:url('../images/buttons.png') no-repeat 0 0; background-position:0 -150px; height: 50px; width:50px;	border:0; }
+.close { background:url('../images/close2_32.png') no-repeat 0 0; height:32px; width:32px; margin:0 5px;  border:0; }
+.close:hover { background:url('../images/close2_h_32.png') no-repeat 0 0; height:32px; width:32px; border:0; }
+.admin { background:url('../images/admin.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.new { background:url('../images/new.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.search { background:url('../images/search.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.exit { background:url('../images/exit.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.newuser { background:url('../images/newuser.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.deluser { background:url('../images/deluser.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.edituser { background:url('../images/edituser.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.newmed { background:url('../images/newmed.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.add { background:url('../images/add.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.cancel { background:url('../images/cancel.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.cancel_l { background:url('../images/cancel_l.png') no-repeat 0 0; background-position:0 0px; height:25px; width:25px; margin:0 5px ; border:0; }
+.ok { background:url('../images/ok.png') no-repeat 0 0; background-position:0 0px; height:50px; width:50px; margin:0 5px ; border:0; }
+.ok_l { background:url('../images/ok_l.png') no-repeat 0 0; background-position:0 0px; height:25px; width:25px; margin:0 5px ; border:0; }
+
+#text { width: 600px; min-height: 550px; background:url(../images/foxilogo.png) center no-repeat; float:left; padding-left:20px; }
+#text h1 { margin: 0px 0px 5px;	padding: 0px 10px 3px; font: bold 26px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+#text h5 { margin: 0px 0px 5px; padding: 0px 10px 3px; font: bold 30px "Palatino Linotype", "Book Antiqua", Palatino, serif; color:#C00; }
+
+.content { font-size:13px; margin:0 auto; padding:0; width:500px; }
+.content h2{ line-height: 24pt; }
+
+#footer{ clear:both; text-align:center; padding-top: 20px; }
+#left_footer { float:left; padding:15px 0 0 30px; text-transform:uppercase; color:#FFFFFF; font-weight:bold; font-size:13px; }
+#left_footer a { color:#FFFFFF; }
+#left_footer a:hover { text-decoration:none; }
+#right_footer { float:right; padding:15px 30px 0 0; text-transform:uppercase; color:#FFFFFF; font-weight:bold; font-size:13px; text-align:right; }
+#right_footer a { color:#FFFFFF; }
+#right_footer a:hover { text-decoration:none; }
+
+.p1 { margin: 0px 0px 0px; padding: 0px 0px 0px; color:#5E2612; font: bold 13px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+.p2 { margin: 0px 0px 0px; padding: 0px 0px 0px; color: #222; font: 11px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+.fejlec { margin: 0px 0px 5px; padding: 0px 10px 3px; color:#8B65708; font: bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+.error { margin: 0px 0px 5px; padding: 0px 30px 3px; color: #C03; font: bold 18px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+/*LOGIN MODUL */
+#loginbox { width:500px; margin: 5px auto; font: italic bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+#loginbox p { font: italic bold 14px "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+#loginbox a { color:#000; vertical-align:top; float:right; font: bold 15px Arial, Verdana, sans-serif; text-decoration:none;}
+#loginbox h2 { font: italic bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 0 0;}
+#loginbox h4 { overflow: hidden; padding: 5px 15px; font: italic bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: #000;}
+.textfield { font-size: 11px; color: #333333; background: #F7F7F7; border: 1px solid #E0DAFC; padding-left: 1px; }
+.textf { font-size: 11px; color: #333333; padding-left: 1px; }
+
+/* File Upload */
+.file a { font: 12px italic Verdana, Geneva, sans-serif; color:#000; text-decoration:none;}
+#filebox { margin:0 auto; }
+#filebox h4{ height: 14px; overflow: hidden; background: #2a383d url(../images/menu.png) repeat-x 0 0; background-position:0 -100px; padding: 3px 5px; font: bold 11px Arial, Verdana, sans-serif; color: #fff; text-transform:uppercase; }
+#filebox a {font: 12px italic Verdana, Geneva, sans-serif; color:#000; text-decoration:none;}
+#filebox a:hover {font: 12px italic Verdana, Geneva, sans-serif; color: #C00; text-decoration:none;}
+textarea {resize: none;}
+
+.popup {height: 100%; width: 100%; background: #000000; position: absolute; top: 0; -moz-opacity:0.75; -khtml-opacity: 0.75; opacity: 0.75; filter:alpha(opacity=75);}
+.window {width: 400px; height: 300px; margin: 0 auto; border: 1px solid #000000; background: #ffffff; position: absolute; top: 200px; left: 25%;}
+#popup_content {text-align:right; font-size:12px;}
+
+/* ADATLAP */
+#adatlap { font: italic 16px "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+#adatlap p1{ padding: 10px 10px;}
+#adatlap a { color:#333; text-decoration: underline; font: 14px "Times New Roman", Times, serif; padding: 0px 10px;}
+
+/* ADMIN OLDAL */
+#Profile { width:450px; font: italic bold 16px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 10px 10px;}
+#blanket { background-color:#111; opacity: 0.65; filter:alpha(opacity=65); position:absolute; z-index: 9001; top:0px; left:0px; width:100%;}
+#Rights { font: italic bold 18px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 10px 10px; position:absolute; background-color:#eeeeee; width:300px; height:150px; z-index: 9002;}
+#Password { font: italic bold 18px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 10px 10px; position:absolute; background-color:#eeeeee; width:500px; height:200px; z-index: 9002;}
+#Email { font: italic bold 18px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 10px 10px; position:absolute; background-color:#eeeeee; width:500px; height:200px; z-index: 9002;}
+#Newuser { font: italic bold 18px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 10px 10px; position:absolute; background-color:#eeeeee; width:500px; height:220px; z-index: 9002;}
+#NewOwner { font: italic bold 18px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 10px 10px; position:absolute; background-color:#eeeeee; width:700px; height:270px; z-index: 9002;}
+#Kep { position:absolute; background-color:#eeeeee; z-index: 9002;}
+
+/* GUEST PAGE */
+#guest { padding: 0px 0px; width:100%; background:#3499C5; min-height:35px; color:#E0DAFC; border-bottom:#CCC solid 1px; }
+#GuestLeft   { float: left;  display: inline; width: 150px; min-height:35px; margin: 5px 0 10px 15px;  font-size:16px; font-style:italic;}
+#GuestCenter { float: left;  display: inline; width: 720px; min-height:35px; margin: 5px 0 10px 5px;  font-size:16px; font-style:italic;}
+#BackLink { display: inline; float:right; margin: 5px 15px 10px 5px;  font-size:16px; font-style:italic;}
+#BackLink a { text-decoration:none; color: #333; font-weight:bold; font-size:18px; font-style:italic;}
+#DogGuest {	margin:auto; width: 100%;}
+#DogGuest a { text-decoration:none; color:#000099;}
+#List { font: 14px "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight:200; color:#2A0000;}
+
+.fejl { border: 1px solid #DFEDF5; padding-bottom: 10px;}
+.fejl h1 { font: italic bold 22px "Palatino Linotype", "Book Antiqua", Palatino, serif; border: 1px solid #DFEDF5;}
+.fejl p { font: italic 14px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 0 0;}
+
+table thead th { background: url(../images/bg_wave2.png); background-position: 0px -25px; color:#E0DAFC; font: 18px "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight: bold;}
+
+tr {}
+  .normal {}
+  .highlight { cursor:pointer; background-color: #E0DAFC; }
+
+.tb { padding-left:10px; font-size: 16px; border-bottom: solid 1px #CCCCCC;}

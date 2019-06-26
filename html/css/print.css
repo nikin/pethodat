@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {padding: 0px; margin: 0 auto; width:650px;}
+
+.left   { text-align: left   !important; }
+.center { text-align: center !important; }
+.right  { text-align: right  !important; }
+.justify { text-align: justify !important;}
+.floatl { float: left ; display: inline; }
+.floatr { float: right; display: inline; }
+.floatc {margin: 0 auto; }
+
+#header {font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight:bold;}
+#header_left {float:left; display:inline; width:250px;}
+#header_right {float:right; display:inline; width:400px; text-align:right;}
+
+#page { padding-top:25px;}
+#page h1 {text-align:center; text-decoration:underline}
+
+#dog_data {text-align:left;}
+
+#DataPage {width:1240px; max-height:1748px;}
+
+#data {font:"Palatino Linotype", "Book Antiqua", Palatino, serif 12px; text-align:justify;}
+#data h3 {text-decoration:underline;}
+#data ol li {padding-bottom:10px;}

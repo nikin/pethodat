@@ -1,0 +1,10 @@
+version: '2'
+services:
+  pethodat-server:
+    container_name: pethodat-server
+    build: .
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "../html:/var/www:rw"

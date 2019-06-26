@@ -1,0 +1,89 @@
+html { overflow: scroll; overflow-x: auto; }
+body{padding: 0px; margin: 0px; font: normal 14px "Palatino Linotype", "Book Antiqua", Palatino, serif; color:#003; background-color: #FFF;}
+
+.left   { text-align: left   !important; }
+.center { text-align: center !important; }
+.right  { text-align: right  !important; }
+.justify { text-align: justify !important;}
+.floatl { float: left ; display: inline; }
+.floatr { float: right; display: inline; }
+.floatc {margin: 0 auto; }
+
+/* MAIN COLUMNS */
+#page { width: 1300px; margin: 0 auto; position: relative; text-align: left;}
+
+/* MAIN */
+#left   { float: left;  display: inline-block; width: 500px; margin: 5px 0 10px 5px;  font-size: 18px; font-style:italic; position:absolute; padding-left: 5px;}
+#center_content { float: left; width: 400px; margin: 10px; }
+#right  { float: right; display: inline;  margin: 10px 5px 10px 0; font-size:16px; }
+
+/* BORDERED BOX */
+
+.bordered { border: 1px solid #333; background: #fff no-repeat 50% -4px; border-radius: 10px; -moz-border-radius-topleft: 10px;  -moz-border-radius-topright: 10px; -moz-border-radius-bottomright: 10px; -moz-border-radius-bottomleft: 10px; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-box-shadow: 5px 5px 5px #000; /* Firefox */ -webkit-box-shadow: 5px 5px 5px #000; /* Safari and Chrome */ box-shadow: 5px 5px 5px #000; /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */} /*Lekerekített keret */
+.border h4 { position: relative; margin: -1px -1px 0 -1px; no-repeat 50% -3px; }
+.border:after { content: ""; display: block; width: 100%; height: 3px; margin: -2px -1px -1px -1px; padding: 0 1px; background: no-repeat 50% 0; }
+
+.border { border: 1px solid #333; background: #fff no-repeat 50% -4px; -moz-box-shadow: 5px 5px 5px #003; /* Firefox */ -webkit-box-shadow: 5px 5px 5px #003; /* Safari and Chrome */ box-shadow: 5px 5px 5px #000; /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */ } /* szögletes keret */
+
+/* PADDING */
+.pl { padding: 0 10px;}
+
+/* MARGIN */
+.mh { margin: 0 10px;}
+.mh2 { margin: 0 20px;}
+.mh3 { margin: 0 30px; }
+.mh4 { margin: 0 40px; }
+.mh5 { margin: 0 50px; }
+.mh6 { margin: 0 60px; }
+.mh7 { margin: 0 70px; }
+.mh8 { margin: 0 80px; }
+
+.content { font-size:13px; margin:0 auto; padding:0; width:500px; }
+.content h2{ line-height: 24pt; }
+
+.p1 { margin: 0px 0px 0px; padding: 0px 0px 0px; color:#5E2612; font: bold 13px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+.p2 { margin: 0px 0px 0px; padding: 0px 0px 0px; color: #222; font: 11px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+/*.fejlec { margin: 0px 0px 5px; padding: 0px 10px 3px; color:#8B65708; font: bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif; }*/
+
+.popup {height: 100%; width: 100%; background: #000000; position: absolute; top: 0; -moz-opacity:0.75; -khtml-opacity: 0.75; opacity: 0.75; filter:alpha(opacity=75);}
+.window {width: 400px; height: 300px; margin: 0 auto; border: 1px solid #000000; background: #ffffff; position: absolute; top: 200px; left: 25%;}
+#popup_content {text-align:right; font-size:12px;}
+#blanket { background-color:#111; opacity: 0.65; filter:alpha(opacity=65); position:absolute; z-index: 9001; top:0px; left:0px; width:100%;}
+#Kep { position:absolute; background-color:#eeeeee; z-index: 9002;}
+
+/* GUEST PAGE */
+#GuestHeader { padding: 0px 0px; width:100%; background:#333; min-height:35px; color:#E8E8E8; }
+#GuestPage { margin: 0 auto; display: inline; width: 1000px;}
+
+#GuestFiltForm { width: 1000px; background:#333333; color:#FFFFFF; padding-left:10px; padding-bottom:10px; font-size:16px; font-style:italic; font-family:"Comic Sans MS", cursive}
+#GuestResults {width: 1010px; background:#EEE; padding-top:5px; margin-top:10px;}
+#GuestResults p { padding-left:10px; font-size:14px; font-style:italic; font-family:"Comic Sans MS", cursive}
+#GuestDogForm { width:185px; display: inline-block; margin-top:0px; margin-left:10px; margin-bottom:10px; padding-top:10px; min-height:300px; vertical-align:text-top;}
+#GuestDogForm h1 {padding-left:10px; font-size:18px; font-style:italic; font-family:"Comic Sans MS", cursive}
+#GuestDogForm p {padding-left:10px; font-size:11px; font-style:italic; font-family:"Comic Sans MS", cursive}
+#GuestDogPicture { width:100%; min-height:220px;}
+
+#GuestLeft   { float: left;  display: inline; width: 250px; min-height:35px; margin: 112px 0 10px 15px;  font-size:16px; font-style:italic;  background-color:#69C; color:#E8E8E8; padding-left: 5px; border: 1px solid #333;position:fixed; top: 36px; left: 0px}
+#GuestCenter { float: left;  display: inline; width: 830px; min-height:35px; margin: 5px 0 10px 5px;  font-size:16px; font-style:italic;}
+
+#BackLink { display: inline; float:right; margin: 5px 15px 10px 5px;  font-size:16px; font-style:italic;}
+#BackLink a { text-decoration:none; color: #E8E8E8; font-weight:bold; font-size:18px; font-style:italic;}
+#DogGuest {	margin:auto; width: 100%;}
+#DogGuest a { text-decoration:none; color:#000099;}
+#List { font: 14px "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight:200; color:#2A0000;}
+#GuestFooter{ clear:both; text-align:center; padding-top: 20px; }
+
+.fejl { border: 1px solid #E8E8E8; padding-bottom: 10px;}
+.fejl h1 { font: italic bold 22px "Palatino Linotype", "Book Antiqua", Palatino, serif; border: 1px solid #E8E8E8; color:#111;}
+.fejl p { font: italic 14px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 0 0;}
+
+.highlight { cursor:pointer; background:#69C;}
+
+.tb { padding-left:10px; font-size: 16px; border-bottom: solid 1px #CCCCCC;}
+
+#GuestDataPage{ width: 1000px; padding-left:10px; padding-top:10px;}
+#GuestDataLeft{ display:inline-block; width: 50px; float:left; margin-top:250px;}
+#GuestDataCenter{ display:inline-block; width: 900px; float:left}
+#GuestDataRight{ display:inline-block; width: 50px; float:left; margin-top:250px;}
+/*2014.01.18.*/

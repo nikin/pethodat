@@ -1,0 +1,108 @@
+html { overflow: scroll; overflow-x: auto; }
+body{padding: 0px; margin: 0px; background:#E8E8E8; font: normal 14px "Palatino Linotype", "Book Antiqua", Palatino, serif; color:#003; }
+
+.left   { text-align: left   !important; }
+.center { text-align: center !important; }
+.right  { text-align: right  !important; }
+.justify { text-align: justify !important;}
+.floatl { float: left ; display: inline; }
+.floatr { float: right; display: inline; }
+.floatc {margin: 0 auto; }
+
+/* MAIN COLUMNS */
+#page { width: 1300px; margin: 0 auto; position: relative; text-align: left;}
+
+/* MAIN */
+#left   { float: left;  display: inline-block; width: 225px; margin: 5px 0 10px 5px;  font-size:16px; font-style:italic; position:absolute; padding-left: 5px;}
+#center { float: left;  display: inline; width: 602px; margin-left: 272px;}
+#center_content { float: left; width: 400px; margin: 10px; }
+#right  { float: right; display: inline;  margin: 10px 5px 10px 0; font-size:16px; }
+
+
+/* RESULT BOX */
+.resultbox { width:600px; margin:10px auto; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; }
+.resultbox h2 { font:"Palatino Linotype", "Book Antiqua", Palatino, serif; overflow:hidden; text-align:left; padding-left:10px; background: #d37e2b; padding-top:3px; padding-bottom: 4px; text-transform:uppercase; margin-top: 0; color:#FFF;  -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+.resultbox dog { font: bold italic 16px "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+.resultbox a { font: bold italic 16px "Palatino Linotype", "Book Antiqua", Palatino, serif; text-decoration:none; color:#412501; }
+.resultbox a:hover { font: bold italic 16px "Palatino Linotype", "Book Antiqua", Palatino, serif; text-decoration: underline; color:#412501; }
+
+
+/* BORDERED BOX */
+
+.bordered { border: 1px solid #30C; background: #fff no-repeat 50% -4px; border-radius: 10px; -moz-border-radius-topleft: 10px;  -moz-border-radius-topright: 10px; -moz-border-radius-bottomright: 10px; -moz-border-radius-bottomleft: 10px; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-box-shadow: 5px 5px 5px #000; /* Firefox */ -webkit-box-shadow: 5px 5px 5px #000; /* Safari and Chrome */ box-shadow: 5px 5px 5px #000; /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */
+}
+.border h4 { position: relative; margin: -1px -1px 0 -1px; no-repeat 50% -3px; }
+.border:after { content: ""; display: block; width: 100%; height: 3px; margin: -2px -1px -1px -1px; padding: 0 1px; background: no-repeat 50% 0; }
+
+/* PADDING */
+.pl { padding: 0 10px;}
+
+/* MARGIN */
+.mh { margin: 0 10px;}
+.mh2 { margin: 0 20px;}
+.mh3 { margin: 0 30px; }
+.mh4 { margin: 0 40px; }
+.mh5 { margin: 0 50px; }
+.mh6 { margin: 0 60px; }
+.mh7 { margin: 0 70px; }
+.mh8 { margin: 0 80px; }
+
+#text { width: 600px; min-height: 550px; background:url(../images/foxilogo.png) center no-repeat; float:left; padding-left:20px; }
+#text h1 { margin: 0px 0px 5px;	padding: 0px 10px 3px; font: bold 26px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+#text h5 { margin: 0px 0px 5px; padding: 0px 10px 3px; font: bold 30px "Palatino Linotype", "Book Antiqua", Palatino, serif; color:#C00; }
+
+.content { font-size:13px; margin:0 auto; padding:0; width:500px; }
+.content h2{ line-height: 24pt; }
+
+#footer{ clear:both; text-align:center; padding-top: 20px; }
+#left_footer { float:left; padding:15px 0 0 30px; text-transform:uppercase; color:#FFFFFF; font-weight:bold; font-size:13px; }
+#left_footer a { color:#FFFFFF; }
+#left_footer a:hover { text-decoration:none; }
+#right_footer { float:right; padding:15px 30px 0 0; text-transform:uppercase; color:#FFFFFF; font-weight:bold; font-size:13px; text-align:right; }
+#right_footer a { color:#FFFFFF; }
+#right_footer a:hover { text-decoration:none; }
+
+.p1 { margin: 0px 0px 0px; padding: 0px 0px 0px; color:#5E2612; font: bold 13px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+.p2 { margin: 0px 0px 0px; padding: 0px 0px 0px; color: #222; font: 11px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+.fejlec { margin: 0px 0px 5px; padding: 0px 10px 3px; color:#8B65708; font: bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+.error { margin: 0px 0px 5px; padding: 0px 30px 3px; color: #C03; font: bold 18px "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+
+/*LOGIN MODUL */
+#loginbox { width:500px; margin: 5px auto; font: italic bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+#loginbox p { font: italic bold 14px "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+#loginbox a { color:#000; vertical-align:top; float:right; font: bold 15px Arial, Verdana, sans-serif; text-decoration:none;}
+#loginbox h2 { font: italic bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 0 0;}
+#loginbox h4 { overflow: hidden; padding: 5px 15px; font: italic bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif; color: #000;}
+.textfield { font-size: 11px; color: #333333; background: #F7F7F7; border: 1px solid #E0DAFC; padding-left: 1px; }
+.textf { font-size: 11px; color: #333333; padding-left: 1px; }
+
+.popup {height: 100%; width: 100%; background: #000000; position: absolute; top: 0; -moz-opacity:0.75; -khtml-opacity: 0.75; opacity: 0.75; filter:alpha(opacity=75);}
+.window {width: 400px; height: 300px; margin: 0 auto; border: 1px solid #000000; background: #ffffff; position: absolute; top: 200px; left: 25%;}
+#popup_content {text-align:right; font-size:12px;}
+#blanket { background-color:#111; opacity: 0.65; filter:alpha(opacity=65); position:absolute; z-index: 9001; top:0px; left:0px; width:100%;}
+#Kep { position:absolute; background-color:#eeeeee; z-index: 9002;}
+
+/* GUEST PAGE */
+#guest { padding: 0px 0px; width:100%; background:#111; min-height:35px; color:#E8E8E8; border-bottom:#CCC solid 1px; }
+#GuestLeft   { float: left;  display: inline; width: 250px; min-height:35px; margin: 112px 0 10px 15px;  font-size:16px; font-style:italic;  background-color:#69C; color:#E8E8E8; padding-left: 5px; border: 1px solid #333;position:fixed; top: 36px; left: 0px}
+#GuestCenter { float: left;  display: inline; width: 830px; min-height:35px; margin: 5px 0 10px 5px;  font-size:16px; font-style:italic;}
+#BackLink { display: inline; float:right; margin: 5px 15px 10px 5px;  font-size:16px; font-style:italic;}
+#BackLink a { text-decoration:none; color: #E8E8E8; font-weight:bold; font-size:18px; font-style:italic;}
+#DogGuest {	margin:auto; width: 100%;}
+#DogGuest a { text-decoration:none; color:#000099;}
+#List { font: 14px "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight:200; color:#2A0000;}
+
+.border { border: 1px solid #333; background: #fff no-repeat 50% -4px; -moz-box-shadow: 5px 5px 5px #003; /* Firefox */ -webkit-box-shadow: 5px 5px 5px #003; /* Safari and Chrome */ box-shadow: 5px 5px 5px #000; /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */ }
+
+.fejl { border: 1px solid #E8E8E8; padding-bottom: 10px;}
+.fejl h1 { font: italic bold 22px "Palatino Linotype", "Book Antiqua", Palatino, serif; border: 1px solid #E8E8E8; color:#111;}
+.fejl p { font: italic 14px "Palatino Linotype", "Book Antiqua", Palatino, serif; padding: 0 0;}
+
+table thead th { background:#69C; background-position: 0px -25px; color:#E8E8E8; font: 18px "Palatino Linotype", "Book Antiqua", Palatino, serif; font-weight: bold; border-bottom: 1px solid #333;}
+
+tr {}
+  .normal {}
+  .highlight { cursor:pointer; background-color: #69C; color:#E8E8E8;}
+
+.tb { padding-left:10px; font-size: 16px; border-bottom: solid 1px #CCCCCC;}
